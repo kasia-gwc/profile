@@ -53,6 +53,7 @@ a:hover {
 ul, li {
   font-size: 30px;
 }
+
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
@@ -65,9 +66,11 @@ ul, li {
 }
 
 .icon {
-  font-size: 30px;
+  font-size: 35px;
 }
-
+#profile {
+  border-radius: 50%;
+}
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
